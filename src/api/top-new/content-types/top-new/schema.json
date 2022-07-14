@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "top_news",
+  "info": {
+    "singularName": "top-new",
+    "pluralName": "top-news",
+    "displayName": "TopNews",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "imageUrl": {
+      "type": "string"
+    }
+  }
+}
